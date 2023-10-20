@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './SearchBar.css';
 
 class SearchBar extends Component {
   constructor(props) {
@@ -13,7 +14,7 @@ class SearchBar extends Component {
 
   handleSearchModeChange = (mode) => {
     this.setState({ mode });
-    this.handleSearch(); 
+    this.handleSearch();
   }
 
   handleQueryChange = (event) => {
